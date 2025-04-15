@@ -1,12 +1,28 @@
-# React + Vite
+# React Redux Saga Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a simple setup using **React**, **Redux**, and **Redux-Saga** to fetch user data from an API and display it in the UI.
 
-Currently, two official plugins are available:
+## 📦 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Redux
+- Redux-Saga
+- JavaScript (ES6+)
+- Fetch API
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/blueReact/react-redux-saga.git
+cd react-redux-saga
+
+Clone the repository
+npm install
+
+Start the development server
+npm run dev
+
+API Used
+https://jsonplaceholder.typicode.com/users
